@@ -1,17 +1,22 @@
 ---
 marp: true
 paginate: true
-style: ../design/style.css
+theme: test
 header: "**Marpではじめるスライド作成**"
 footer: "Marp Sample Presentation"
 ---
+
+<!--
+_class: title 
+-->
 
 # タイトル
 
 ## Marp で作成するスライド資料
 
-所属：○○
-tomoya tsuzaki
+### 所属：〇〇
+
+### 〇〇 〇〇
 
 ---
 
@@ -22,7 +27,7 @@ tomoya tsuzaki
 
 ---
 
-## 書き方
+## 記法1
 
 - スライドの区切りは `---` 。
 
@@ -44,7 +49,45 @@ marp: true
 
 ---
 
+## 記法2
+
+### 見出しの一部を**青色のアクセントカラー**にする
+
+- 見出し内で**に囲まれた部分は青色のアクセントカラーになります
+
+### 画像
+
+![w150](https://placehold.jp/150x150.png)
+
+---
+
+## コードブロック
+
+```Java
+public class test {
+    public static void main(String[] args){
+        // 
+        System.out.println("Hello, world!");
+    }
+}
+```
+
+---
+
+## 画像を入れる(右側)
+
+![bg right:45%](https://placehold.jp/150x200.png)
+
+---
+
+<!--
+_backgroundColor: magenta
+_color: white
+-->
+
 ## 結論
+
+- 背景色マゼンタ
 
 ---
 
